@@ -26,6 +26,15 @@ public class Hospital {
     
     */
     
+    public Hospital(){
+    nombre = "Isidro Ayora";
+    ciudad = "Loja";
+    numeroDoctores = 100;
+    numeroEnfermeros = 200;
+    
+        
+    }
+    
     public void establecerNombre(String n){
         nombre = n;
     }
@@ -56,6 +65,11 @@ public class Hospital {
     
     public int obtenerNumeroEnfermeros(){
         return numeroEnfermeros;
+    }
+    @Override
+    public String toString(){
+        String cadena = "Soy el un obejto";
+        return cadena;            
     }
     
 }

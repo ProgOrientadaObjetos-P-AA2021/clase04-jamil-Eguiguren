@@ -20,6 +20,11 @@ public class Hospital {
         valores que serán asignados a los atributos.
     
     */
+    public Hospital(String numTel, double mMes,
+            double vMinuto) {
+        
+    }
+
     
     public void establecerNombre(String n){
         nombre = n;
@@ -51,6 +56,11 @@ public class Hospital {
     
     public int obtenerNumeroEnfermeros(){
         return numeroEnfermeros;
+    }
+    @Override
+    public String toString(){
+    String cadena = "Soy el un obejto";
+    return cadena;            
     }
     
 }

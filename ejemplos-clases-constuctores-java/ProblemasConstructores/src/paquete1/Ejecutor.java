@@ -11,8 +11,8 @@ package paquete1;
  */
 public class Ejecutor {
     public static void main(String[] args) {
+      paquete1.Hospital ob = new paquete1.Hospital();
+        System.out.printf("%s\n", ob);
         
-        /*Crear un objeto y presentar los datos*/
-        
-    }
+    }   
 }
